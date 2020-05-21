@@ -21,6 +21,13 @@ This framework makes MADDPG flexible enough to handle competitive, collaborative
 
 ![](Average.png)
 
+![](Result_scores.png)
+
+
+# Base state
+![](Base_state.png	)
+
+
 # Algorithm used and methods
 
 - To solve the environment, the agents must get an average score of +0.5 over 100 consecutive episodes, 
