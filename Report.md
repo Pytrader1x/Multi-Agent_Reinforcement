@@ -35,14 +35,18 @@ During execution time only actors are present and all observations and actions a
 MADDPG (Multi-agent DDPG) class uses 2 DDPG agents similar to what was used in Udacity classroom 
 for previous projects. Also ReplayBuffer is used as a shared buffer between agents. 
 
-MADDPG combines states, actions, rewards, next_states, dones from both agents and adds 
+MADDPG combines states, actions, rewards, next_states, dones from both agents and adds them to shared ReplayBuffer. 
 
-them to shared ReplayBuffer. MADDPG act calls act for 2 DDPG agents. The Actor network consists of 3 
+- MADDPG act calls act for 2 DDPG agents. 
 
-linear layers. The first 2 linear layers are followed by Relu layer and the 3rd linear layer is followed by a Tanh 
-layer as output layer. The sizes for the layers are 24 200, 200*150 and 150*2 respectively. 
+- The Actor network consists of 3 linear layers. 
 
-The Critic has a similar structure with sizes of 52*200, 200*150 and 150*1. 
+- The first 2 linear layers are followed by Relu layer and the 3rd linear layer is followed by a Tanh 
+layer as output layer. 
+
+- The sizes for the layers are 24 200, 200*150 and 150*2 respectively. 
+
+- The Critic has a similar structure with sizes of 52*200, 200*150 and 150*1. 
 
 - Environment was solved in 2186 
 
