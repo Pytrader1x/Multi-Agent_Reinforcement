@@ -17,6 +17,8 @@ This framework makes MADDPG flexible enough to handle competitive, collaborative
 
 # Results
 
+- I solved this challenge in 1495 Episodes with an average score of 0.503
+
 ![](Scores_episodic.png)
 
 ![](Average.png)
