@@ -1,6 +1,8 @@
 # Project Overview
 
-To solve the environment in this project, I chose to apply the MADDPG algorithm. MADDG is a great choice for this environment due to the existence of multiple agents, and my approach here was inspired by the implementation used in the DRLND Nanodegree Lab for the physical deception environment. My solution is located in Tennis_optimal.ipynb
+To solve the environment in this project, I chose to apply the MADDPG algorithm. MADDG is a great choice for this environment due to the existence of multiple agents, and my approach here was inspired by the implementation used in the DRLND Nanodegree Lab for the physical deception environment. 
+
+- My solution is located in [Tennis_optimal](https://github.com/Pytrader1x/Multi-Agent_Reinforcement/blob/master/Tennis_optimal.ipynb)
 
 
 - One simple way to think of MADDPG is as a wrapper for handling multiple DDPG agents:
