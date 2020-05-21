@@ -1,6 +1,6 @@
 
 
-- to Blve the environment, the agents must get an average score of +0.5 over 100 consecutive episodes, 
+- To solve the environment, the agents must get an average score of +0.5 over 100 consecutive episodes, 
 after taking the maximum over both agents. Algorithms and Techniques 
 
 To train the Tennis agents I used MDDGP algorithm implementing centralized training and decentralized execution. 
