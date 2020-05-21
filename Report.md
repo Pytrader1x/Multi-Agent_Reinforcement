@@ -70,6 +70,8 @@ Trained Models
 
 The following techniques can be tried out to further improve the performance of the network
 
-- Prioritized Experience Replay: This technique prioritizes the experiences and chooses the best experience for further training when sampling from the buffer. This is known to reduce the training time and make the training more efficient.
-- Asynchornous Actor Critic Agent: This technique trains multiple worker agents that interact with a glocal network asynchronously to optimize the policy and value function. This way, each of these agents interacts with it’s own copy of the environment at the same time as the other agents are interacting with their environments.
-- Proximal Policy Optimization: This technique modifies the parameters of the network in such a way that the new set of parameters is looked for in the immediate neighbourhood of the parameters in the previous iteration of the training. This is shown also to be an efficient way of training the network so the search space is more optimal.
+- Optimise the hyperparameters to get it to converge faster with a score of greater that 0.55
+- I would also like to explore prioritized experience replay: This technique prioritizes the experiences and chooses the best experience for further training when sampling from the buffer.
+This is known to reduce the training time and make the training more efficient.
+
+- Asynchornous Actor Critic Agent: This procedure prepares different specialist operators that interface with a glocal arrange nonconcurrently to upgrade the approach and worth capacity. Thusly, every one of these operators connects with it's own duplicate of the earth simultaneously as different specialists are communicating with their surroundings.
