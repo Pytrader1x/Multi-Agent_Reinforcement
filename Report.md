@@ -17,7 +17,7 @@ This framework makes MADDPG flexible enough to handle competitive, collaborative
 
 # Results
 
-[!](Scores_episodic.png)
+![](Scores_episodic.png)
 
 # Algorithm used and methods
 
