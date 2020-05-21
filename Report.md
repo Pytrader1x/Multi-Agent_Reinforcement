@@ -1,3 +1,19 @@
+# Project Overview
+
+To solve the environment in this project, I chose to apply the MADDPG algorithm. MADDG is a great choice for this environment due to the existence of multiple agents, and my approach here was inspired by the implementation used in the DRLND Nanodegree Lab for the physical deception environment. My solution is located in Tennis_optimal.ipynb
+
+
+- One simple way to think of MADDPG is as a wrapper for handling multiple DDPG agents:
+
+This means that there is extra information used during training that is not used during testing.
+
+More specifically, the training process makes use of both actors and critics, just like DDPG. The difference is that the input to each agent's critic consists of all the observations and actions for all the agents combined.
+
+Since only the actor is present during testing, that extra information used during training effectively goes away.
+
+This framework makes MADDPG flexible enough to handle competitive, collaborative, and mixed environments.
+
+
 # Algorithm used and methods
 
 - To solve the environment, the agents must get an average score of +0.5 over 100 consecutive episodes, 
