@@ -1,4 +1,4 @@
-
+# Algorithm used and methods
 
 - To solve the environment, the agents must get an average score of +0.5 over 100 consecutive episodes, 
 after taking the maximum over both agents. Algorithms and Techniques 
