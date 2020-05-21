@@ -15,6 +15,9 @@ Since only the actor is present during testing, that extra information used duri
 
 This framework makes MADDPG flexible enough to handle competitive, collaborative, and mixed environments.
 
+# Results
+
+[](Scores_episodic.png)
 
 # Algorithm used and methods
 
@@ -71,7 +74,7 @@ Trained Models
 The following techniques can be tried out to further improve the performance of the network
 
 - Optimise the hyperparameters to get it to converge faster with a score of greater that 0.55
-- I would also like to explore prioritized experience replay: This technique prioritizes the experiences and chooses the best experience for further training when sampling from the buffer.
+- I would also like to explore further prioritized experience replay: This technique prioritizes the experiences and chooses the best experience for further training when sampling from the buffer.
 This is known to reduce the training time and make the training more efficient.
 
-- Asynchornous Actor Critic Agent: This procedure prepares different specialist operators that interface with a glocal arrange nonconcurrently to upgrade the approach and worth capacity. Thusly, every one of these operators connects with it's own duplicate of the earth simultaneously as different specialists are communicating with their surroundings.
+- Furthermore I'd like to go deeper in checking howAsynchornous Actor Critic Agents can help further improve convergence: This procedure prepares different specialist operators that interface with a glocal arrange nonconcurrently to upgrade the approach and worth capacity. Thusly, every one of these operators connects with it's own duplicate of the earth simultaneously as different specialists are communicating with their surroundings.
