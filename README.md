@@ -32,7 +32,7 @@ To run train this model you will need the below key elements:
 1. [Install AI gym dependencies](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 2. [Install Unity environment](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 3. You can clone the env by running git clone https://github.com/Pytrader1x/Multi-Agent_Reinforcement
-4. You can then run jupyter notebook Optimal_Continuous_Control.ipynb
+4. You can then run jupyter notebook Tennis_optimal.ipynb
 The environment can be downloaded from one of the links below for all operating systems
 
 Download the environment from one of the links below. You need only select the environment that matches your operating system:
